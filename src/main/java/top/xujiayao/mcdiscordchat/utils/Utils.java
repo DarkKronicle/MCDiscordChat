@@ -268,20 +268,7 @@ public class Utils {
 	}
 
 	public static void initCheckUpdateTimer() {
-		CHECK_UPDATE_TIMER.schedule(new TimerTask() {
-			@Override
-			public void run() {
-				if (CONFIG.latestCheckTime > System.currentTimeMillis()) {
-					CONFIG.latestCheckTime = System.currentTimeMillis() - 300000000;
-					ConfigManager.update();
-				}
-
-				String message = checkUpdate(false);
-				if (!message.isEmpty()) {
-					UPDATE_NOTIFICATION_CHANNEL.sendMessage(message).queue();
-				}
-			}
-		}, 3600000, 21600000);
+		
 	}
 
 	public static void testJsonValid() throws JsonSyntaxException {
