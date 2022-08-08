@@ -8,26 +8,13 @@ Language: English <a href="/README_CN.md">中文</a>
 
 # MCDiscordChat
 
-[![License](https://img.shields.io/github/license/xujiayao/MCDiscordChat?logo=github)](https://github.com/Xujiayao/MCDiscordChat/blob/master/LICENSE)
-[![Release](https://img.shields.io/github/v/release/xujiayao/MCDiscordChat?logo=github)](https://github.com/Xujiayao/MCDiscordChat/releases)
-[![GitHub Downloads](https://img.shields.io/github/downloads/xujiayao/MCDiscordChat/total?logo=github)](https://github.com/Xujiayao/MCDiscordChat/releases)
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/mcdiscordchat?label=modrinth%20downloads)](https://modrinth.com/mod/mcdiscordchat)
-[![CurseForge Downloads](https://cf.way2muchnoise.eu/full_mcdiscordchat_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat)
-[![Versions Supported](https://cf.way2muchnoise.eu/versions/mcdiscordchat.svg)](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat)
-
 MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Discord chat bridge inspired by BRForgers/DisFabric
 
 More information + Docs: [MCDiscordChat Docs | Xujiayao's Blog](https://blog.xujiayao.top/posts/4ba0a17a/)
 
-## ⚠️ Reminder
+## Why Fork
 
-MCDiscordChat Will NOT provide an option to turn off auto-checking for updates, as it is good practice to stay up to date, especially for a mod like MCDC, which is unstable and has frequent bug fixes.
-
-If you insist that you do not want to update, then I believe you have the ability to maintain MCDC frequently and fix bugs yourself. Please fork the repository to delete the code of check for updates. However, Do NOT submit Pull Requests for that change :)
-
-Note that the good changes in the forks may be added to the upstream repository via Pull Requests without notice.
-
-For more details, check out [#52 (comment)](https://github.com/Xujiayao/MCDiscordChat/issues/52#issuecomment-1172137781). Thank you.
+I understand the need for users to update to most recent version of a project, but not providing an option to opt out can become a hinderence. If someone doesn't want to update to that should be their decision.
 
 ## Introduction
 
@@ -36,20 +23,6 @@ For more details, check out [#52 (comment)](https://github.com/Xujiayao/MCDiscor
 ![0001.png](https://cdn.jsdelivr.net/gh/Xujiayao/BlogSource@master/source/file/posts/4ba0a17a/0001.png)
 
 ![001.png](https://cdn.jsdelivr.net/gh/Xujiayao/BlogSource@master/source/file/posts/4ba0a17a/001.png)
-
-## Download
-
-All releases can be downloaded at the following sites:
-
-- [Modrinth](https://modrinth.com/mod/mcdiscordchat/versions)
-- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat/files)
-- [GitHub](https://github.com/Xujiayao/MCDiscordChat/releases)
-
-You can find the latest build JAR files at [GitHub Actions](https://github.com/Xujiayao/MCDiscordChat/actions).
-
-## Support
-
-If there is a bug or suggestion, or something you don't understand, you can [submit an issue](https://github.com/Xujiayao/MCDiscordChat/issues/new/choose) on GitHub.
 
 ## Features
 
